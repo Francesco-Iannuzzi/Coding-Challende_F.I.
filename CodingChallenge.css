@@ -1,0 +1,90 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Sfondo trasparente */
+.container {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1200px;
+  height: 850px;
+  border-radius: 3%;
+}
+
+/* Intestazione e Logo */
+
+header {
+  text-align: center;
+}
+
+#logo {
+  width: 250px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: #00DD00;
+  font-size: 30px;
+  font-style: verdana;
+  margin-bottom: 5px;
+}
+
+/* sezione di Navigazione */
+nav > div {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 13px;
+  background-color: #00DD00;
+  width: 1000px;
+  height: 45px;
+  text-align: center;
+}
+
+/* Info Monopattini */
+main {
+  width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+section > *{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.monopattino {
+  display: inline-block;
+}
+
+.proprietario {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 1px
+}
+
+/* Progress Bar */
+.barra {
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.numero1 {
+  background-color: #F5B453;
+  width: 40%;
+}
+
+.numero2 {
+  background-color: #1EC31E;
+  width: 68%;
+}
+
+.numero3 {
+  background-color: #BE4141;
+  width: 18%;
+}
